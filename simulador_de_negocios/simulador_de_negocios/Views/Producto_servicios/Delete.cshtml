@@ -1,0 +1,63 @@
+﻿@model simulador_de_negocios.Models.Producto_servicios
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Eliminar</h2>
+
+<h3>>Seguro que quiere eliminar?</h3>
+<div>
+    <h4>Producto_servicios</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreproducto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombreproducto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.unidadproducto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.unidadproducto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.produccionmensual)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.produccionmensual)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.costounitario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.costounitario)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.margenutilidad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.margenutilidad)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.preciopublico)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.preciopublico)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.datosempresa)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.datosempresa)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="productoID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Regresar</a>
+    </form>
+</div>

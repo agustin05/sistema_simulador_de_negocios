@@ -1,0 +1,60 @@
+﻿@model simulador_de_negocios.Models.Producto_servicios
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Producto_servicios</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreproducto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombreproducto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.unidadproducto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.unidadproducto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.produccionmensual)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.produccionmensual)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.costounitario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.costounitario)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.margenutilidad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.margenutilidad)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.preciopublico)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.preciopublico)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.datosempresa)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.datosempresa)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.productoID">Edit</a> |
+    <a asp-action="Index">Regresar</a>
+</div>

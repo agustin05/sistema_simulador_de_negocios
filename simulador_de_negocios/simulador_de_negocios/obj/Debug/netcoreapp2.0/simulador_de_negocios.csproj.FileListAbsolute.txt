@@ -1,0 +1,11 @@
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\bin\Debug\netcoreapp2.0\simulador_de_negocios.deps.json
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\bin\Debug\netcoreapp2.0\simulador_de_negocios.runtimeconfig.json
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\bin\Debug\netcoreapp2.0\simulador_de_negocios.runtimeconfig.dev.json
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\bin\Debug\netcoreapp2.0\simulador_de_negocios.dll
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\obj\Debug\netcoreapp2.0\simulador_de_negocios.csprojAssemblyReference.cache
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\obj\Debug\netcoreapp2.0\simulador_de_negocios.csproj.CoreCompileInputs.cache
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\obj\Debug\netcoreapp2.0\simulador_de_negocios.AssemblyInfoInputs.cache
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\obj\Debug\netcoreapp2.0\simulador_de_negocios.AssemblyInfo.cs
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\bin\Debug\netcoreapp2.0\simulador_de_negocios.pdb
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\obj\Debug\netcoreapp2.0\simulador_de_negocios.dll
+C:\Users\SC3_12\source\repos\simulador_de_negocios\simulador_de_negocios\obj\Debug\netcoreapp2.0\simulador_de_negocios.pdb

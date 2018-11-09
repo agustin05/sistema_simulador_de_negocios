@@ -1,0 +1,66 @@
+﻿@model simulador_de_negocios.Models.Mano_Obra_Operativa
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Mano_Obra_Operativa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.concepto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.concepto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.unidadmedia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.unidadmedia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.preciounitario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.preciounitario)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.cantidad)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.estimacionmensual)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.estimacionmensual)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.estimacionanual)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.estimacionanual)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.servicioproducto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.servicioproducto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.datosempresas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.datosempresas)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.manoobraoperativaID">Edit</a> |
+    <a asp-action="Index">Regresar</a>
+</div>
